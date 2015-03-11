@@ -53,53 +53,18 @@ table {
 
 /* END RESET */
 
-h1{ 
-	background-color: rgb(222,212,24);
-	padding: 20px ;
-	color: white;
-	margin: 10px 10px 20px 10px;
-	border-style: double;
-	border-width: 7px ;
-	font-size: 60px;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: georgia;
-	letter-spacing: 0.1em;
-}
-
-h3,h2{
-	margin: 10px;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: georgia;
-	letter-spacing: 0.01em;
-}
-
-ul{
-	margin: 10px;
+li { 
 	font-family: helvetica;
-	line-height: 20px;
-}
-
-ol{
+	float: left;
 	margin: 10px;
-	font-family: helvetica;
-	line-height: 20px;
+	background
+
+
+
+
+
+
 }
 
-a{
-	margin: 10px;
-	font-family: helvetica;
-	line-height: 20px;
-}
-
-h6{
-	margin: 10px;
-	font-family: helvetica;
-	line-height: 10px;
-	font-size: 15px;
-}
-
-
-
-
+img { 
+	alignment: center;}
