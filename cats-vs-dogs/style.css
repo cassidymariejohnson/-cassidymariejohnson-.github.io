@@ -54,9 +54,10 @@ table {
 /* END RESET */
 
 li { 
-	font-family: helvetica;
+	font-family: georgia;
 	float: left;
 	margin: 10px;
+	text-decoration: uppercase;
 
 
 
