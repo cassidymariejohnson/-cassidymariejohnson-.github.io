@@ -52,4 +52,24 @@ table {
 
 /* -----------------END RESET---------------- */
 
+p { 
+	width: 300px;
+	float: left;
+	margin: 10px;
 
+}
+
+img {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+h1, h2 {
+	margin: 10px;
+	
+	
+	
+	
+}
