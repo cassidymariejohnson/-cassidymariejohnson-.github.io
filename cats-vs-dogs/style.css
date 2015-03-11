@@ -66,6 +66,7 @@ h2{
 	font-weight: bold;
 	font-family: georgia;
 	font-size: 20px;
+	margin: 10px;
 }
 
 img.1{
@@ -75,7 +76,7 @@ img.1{
 }
 img.2{
 	float:right;
-	margin: 10px;
+	margin: 20px;
 	padding: 20px;
 }
 
@@ -84,6 +85,7 @@ p{
 	font-family: georgia;
 	width: 500px;
 	line-height: 20px;
+	margin: 10px;
 
 	
 	
