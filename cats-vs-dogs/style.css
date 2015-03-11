@@ -59,12 +59,26 @@ li {
 	margin: 10px;
 	text-transform: uppercase;
 	font-weight: bold;
+	padding: 500px;
 }
 
 h2{
 	font-weight: bold;
 	font-family: georgia;
 	font-size: 20px;
+}
+
+img{
+	margin: 10px;
+	padding: 20px;
+	
+}
+
+p{
+	font-family: georgia;
+	
+	
+	
 	
 	
 	
