@@ -69,17 +69,14 @@ h2{
 	margin: 10px;
 }
 
-img.1{
+.section1{
+	
 	float:left;
-	margin: 10px;
-	padding: 20px;
-}
-img.2{
-	float:right;
-	margin: 20px;
-	padding: 20px;
 }
 
+.section2{
+	float:right;
+}
 
 p{
 	font-family: georgia;
