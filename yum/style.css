@@ -51,7 +51,7 @@ table {
 
 /* END RESET */
 
-h1{ 
+h1 { 
 	background-color: rgb(222,212,24);
 	padding: 20px ;
 	color: white;
@@ -65,7 +65,7 @@ h1{
 	letter-spacing: 0.1em;
 }
 
-h3,h2{
+h3, h2 {
 	margin: 10px;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -73,28 +73,27 @@ h3,h2{
 	letter-spacing: 0.01em;
 }
 
-ul{
+ul {
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
 	list-style-type: disc;
 }
 
-ol{
+ol {
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
 	list-style-type: decimal;
-	
 }
 
-a{
+a {
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
 }
 
-h6{
+h6 {
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 10px;
