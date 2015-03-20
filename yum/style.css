@@ -73,15 +73,15 @@ h3, h2 {
 	letter-spacing: 0.01em;
 }
 
-ul li {
-	list-style-type: disc;
-	margin: 10px;
+ul {
+	margin: 28px;
 	font-family: helvetica;
-	line-height: 20px;	
+	line-height: 20px;
+	list-style-type: disc;	
 }
 
-ol li {
-	margin: 10px;
+ol {
+	margin: 33px;
 	font-family: helvetica;
 	line-height: 20px;
 	list-style-type: decimal;
