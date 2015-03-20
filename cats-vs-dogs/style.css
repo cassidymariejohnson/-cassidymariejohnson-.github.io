@@ -78,18 +78,17 @@ h2{
 	font-weight: bold;
 	font-family: georgia;
 	font-size: 20px;
-	margin: 10px;
 }
 
 .section1{
 	
 	float:left;
-	width:40%;
+	width:50%;
 }
 .section2{
 	
 	float:right;
-	width:40%;
+	width:50%;
 }
 
 
@@ -97,10 +96,14 @@ p{
 	font-family: georgia;
 	width: 400px;
 	line-height: 20px;
-	margin: 10px;
+	
 }
 footer {
 	clear: right;
+}
+
+img { 
+	padding:20px;
 	
 	
 }
