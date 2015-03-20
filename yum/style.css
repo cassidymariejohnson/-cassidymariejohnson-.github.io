@@ -73,14 +73,14 @@ h3, h2 {
 	letter-spacing: 0.01em;
 }
 
-ul {
+ul li {
+	list-style-type: disc;
 	margin: 10px;
 	font-family: helvetica;
-	line-height: 20px;
-	list-style-type: disc;
+	line-height: 20px;	
 }
 
-ol {
+ol li {
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
