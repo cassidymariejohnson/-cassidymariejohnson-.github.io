@@ -77,13 +77,16 @@ ul{
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
+	list-style-type: circle;
 }
 
 ol{
 	margin: 10px;
 	font-family: helvetica;
 	line-height: 20px;
-	list-style: decimal;
+	list-style-type: none;
+	list-style-type: decimal !ie; /*IE 7- hack*/
+	
 }
 
 a{
