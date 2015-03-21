@@ -66,6 +66,7 @@ li {
 	float:left;
 	list-style-type: disc;
 	font-size: 25px;
+	 
 	
 	
 	
@@ -100,13 +101,14 @@ footer {
 }
 
 img { 
-	padding:20px;
+	padding:0px;
 	margin:0px auto;
 	
 	
 }
 
 .logo {
+	display: block;
 	margin: 0 auto;
 	
 }
