@@ -49,4 +49,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* END RESET */
 
+#site-header {
+	background-color:lightyellow;
+	padding: 20px;
+}
+.logo{
+	text-display:none;
+}
+#top-nav{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:20px;
+}
+#main-menu{
+	background-color: brown;
+	float:left;
+	width:100%%;
+	margin:0px;
+	text-decoration:none;
+	text-display:uppercase;
+}
+li{
+	float:left;
+	margin:10px;
+	text-decoration: none;
+}
+h1{
+	color:brown;
+	font-size:20px;
+	font-family:helvetica;
+	padding:30px;
+}
+p{
+	font-family:helvetica;
+}
+#footer-contact {
+	background-color:brown;
+	
+}
