@@ -59,15 +59,33 @@ body {
 
 li { 
 	font-family: georgia;
-	margin: 20px;
+	margin: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 10px;
+	padding: 10px ;
 	float:left;
 	list-style-type: disc;
 	font-size: 25px;
-	text-align: center;
+	text-align:center;
+	
+	
+	
+	
 }
+
+#topmenu {
+	border: 5px solid;
+	
+}
+
+nav{
+	border: 5px solid;
+	padding: 10px;
+	border-left-style: none;
+	border-right-style:none;
+	top: 50px;
+}
+
 
 h2{
 	font-weight: bold;
@@ -94,6 +112,8 @@ p{
 
 footer {
 	clear: right;
+	border-style: 5px solid;
+	border-width: 5px;
 }
 
 img { 
@@ -111,6 +131,6 @@ img {
 
 .logo{
 	text-align: center;
-	padding: 30,0,20,0
+	margin: 30,0,20,0
 }
 
