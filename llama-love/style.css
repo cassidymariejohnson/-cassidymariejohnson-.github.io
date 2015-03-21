@@ -52,17 +52,15 @@ table {
 
 /* -----------------END RESET---------------- */
 
-p { 
-	width: 300px;
-	float: left;
-	margin: 10px;
-	line-height: 18px;
-}
+
+p{width:20px;}
+
 
 img {
 	float: left;
-	padding: 5px;
+	padding: 0px;
 	margin: 5px;
+	width:20%;
 }
 
 h1, h2 {
