@@ -75,15 +75,20 @@ li {
 
 #topmenu {
 	border: 5px solid;
+	text-align:center;
+	
 	
 }
 
 nav{
 	border: 5px solid;
-	padding: 10px;
+	padding: 30px;
 	border-left-style: none;
 	border-right-style:none;
-	top: 50px;
+	text-align:center;
+	position:relative;
+	top:10px;
+	
 }
 
 
@@ -131,6 +136,6 @@ img {
 
 .logo{
 	text-align: center;
-	margin: 30,0,20,0
+	margin: 30 0 20 0
 }
 
