@@ -101,17 +101,17 @@ h2{
 .section1{
 	
 	float:left;
-	width:50%;
+	width:40%;
 }
 .section2{
 	
 	float:right;
-	width:50%;
+	width:40%;
 }
 
 p{
 	font-family: georgia;
-	width: 450px;
+	width: 400px;
 	line-height: 20px;
 }
 
@@ -119,6 +119,8 @@ footer {
 	clear: right;
 	border-style: 5px solid;
 	border-width: 5px;
+	font-size: 15px;
+	padding: 10, 0, 0, 0;
 }
 
 img { 
@@ -136,6 +138,6 @@ img {
 
 .logo{
 	text-align: center;
-	margin: 30 0 20 0
+	padding: 30, 0, 20, 0;
 }
 
