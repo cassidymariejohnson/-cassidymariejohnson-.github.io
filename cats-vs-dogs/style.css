@@ -67,9 +67,6 @@ li {
 	list-style-type: disc;
 	font-size: 25px;
 	text-align: center;
-	
-	
-	
 }
 
 h2{
@@ -89,13 +86,12 @@ h2{
 	width:50%;
 }
 
-
 p{
 	font-family: georgia;
-	width: 400px;
+	width: 450px;
 	line-height: 20px;
-	
 }
+
 footer {
 	clear: right;
 }
@@ -103,20 +99,18 @@ footer {
 img { 
 	padding:0px 0px 20px 0px;
 	margin:0px auto;
-	
-	
-}
-
-img.align-center{
-	display:block;
-	margin: 0px auto;
 }
 	
-}
 .red{
 	color:red;
 }
-.nobull{
-	
-	list-style:none;
+
+.none {
+	list-style-type:none;
 }
+
+.logo{
+	text-align: center;
+	padding: 30,0,20,0
+}
+
