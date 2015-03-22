@@ -58,35 +58,66 @@ table {
 .logo{
 	text-display:none;
 }
+
 #top-nav{
 	position:absolute;
 	top:0;
 	right:0;
 	padding:20px;
 }
+
 #main-menu{
-	background-color: brown;
+	background-color: rgb(121,72,35);
 	float:left;
 	width:100%%;
 	margin:0px;
-	text-decoration:none;
-	text-display:uppercase;
+	padding: 0,0,20,0;
 }
+
 li{
 	float:left;
 	margin:10px;
-	text-decoration: none;
+	font-size:15px;
 }
+
 h1{
-	color:brown;
+	color: rgb(121,72,35);
 	font-size:20px;
 	font-family:helvetica;
-	padding:30px;
+	padding:20,0,0,0;
+	margin:20px;
 }
+
 p{
 	font-family:helvetica;
+	width:500px;
+	padding: 0px;
+	margin:20px;
+	font-size:15px;
 }
+
+h2 {
+	margin:20px;
+}
+
 #footer-contact {
-	background-color:brown;
-	
+	background-color:rgb(140,91,59)
+}
+
+.tan {
+	color:tan;
+}
+
+.whitetext {
+	color:white;
+}
+
+.bigheader{
+	font-size:30px;
+}
+a {
+	text-decoration:none;
+	color:white;
+	font-family: helvetica;
+	text-transform:uppercase;
 }
