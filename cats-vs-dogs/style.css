@@ -72,12 +72,12 @@ li {
 	
 nav{
 	border: 5px solid;
-	height:50px;
+	height:30px;
 	border-left-style: none;
 	border-right-style:none;
 	text-align:center;
-	top:30px;
-	padding:10px;
+	top:0px;
+	padding:0px;
 	bottom: 30px;
 	
 }
