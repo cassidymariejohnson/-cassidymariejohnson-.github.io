@@ -59,11 +59,10 @@ body {
 
 li { 
 	font-family: georgia;
-	margin: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 10px ;
-	float:left;
+	display:inline-block;
 	list-style-type: disc;
 	font-size: 25px;
 	text-align:center;
@@ -71,14 +70,13 @@ li {
 }
 	
 nav{
-	border: 5px solid;
-	height:60px;
-	border-left-style: none;
-	border-right-style:none;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	height:50px;
 	text-align:center;
-	top:0px;
-	padding:1px;
-	bottom: 30px;
+	margin: 20px 0 0 0;
+	
+	
 	
 }
 
@@ -87,50 +85,38 @@ h2{
 	font-weight: bold;
 	font-family: georgia;
 	font-size: 20px;
+	margin:10px 0 0 0;
 }
 
 .section1{
 	
 	float:left;
-	width:50%;
+	width:40%;
+	padding: 30px 0 0 0;
 }
 .section2{
 	
-	float:right;
-	width:50%;
+	float:left;
+	width:40%px;
+	padding: 30px 0 0 0;
 }
 
 p{
 	font-family: georgia;
-	width: 400px;
+	width: 450px;
 	line-height: 20px;
 }
 
 footer {
 	float: clear;
+	width:50%;
 	font-size: 15px;
-	padding: 10px
 	font-family: georgia;
-	border: 4px solid;
-	height:50px;
-	border-left-style: none;
-	border-right-style:none;
-	border-bottom-style:none;
-	width:490px;
-	
 }
 
-img { 
-	padding:0px 0px 20px 0px;
-	margin:0px auto;
-}
 	
 .red{
 	color:red;
-}
-
-.none {
-	list-style-type:none;
 }
 
 .logo{
