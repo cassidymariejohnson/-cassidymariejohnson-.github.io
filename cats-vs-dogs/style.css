@@ -89,13 +89,13 @@ h2{
 	
 	float:left;
 	width:40%;
-	padding: 30px 0 0 30px;
+	padding: 30px 0 30px 30px;
 }
 .section2{
 	
 	float:left;
 	width:40%;
-	padding: 30px 0 0 90px;
+	padding: 30px 0 30px 90px;
 }
 
 p{
@@ -104,19 +104,25 @@ p{
 	line-height: 20px;
 }
 
-footer {
-	float: clear;
-	width:50%;
-	font-size: 15px;
-	font-family: georgia;
-	padding: 30px 0 0 30px;
-	border-top: 5px solid;
-}
-
 .logo{
 	text-align: center;
 	
 }
 .red{
 	color:red;
+}
+.alignleft {
+	float:left;
+	clear:both;
+	width:100%;
+	font-size: 15px;
+	font-family: georgia;
+	padding: 10px 0 0 0px;
+	border-top: 5px solid;
+}
+.alignright {
+	float:right;
+	text-align:right;
+	width:100%;
+	bottom:10px;
 }
