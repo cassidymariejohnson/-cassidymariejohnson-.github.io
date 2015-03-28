@@ -100,16 +100,13 @@ h2 {
 	margin:20px;
 }
 
-#footer-contact {
-	background-color:rgb(140,91,59)
-}
 
 .tan {
 	color:tan;
 }
 
 .whitetext {
-	color:white;
+	color:blue;
 }
 
 .bigheader{
@@ -120,4 +117,15 @@ a {
 	color:white;
 	font-family: helvetica;
 	text-transform:uppercase;
+}
+#footer-contact {
+	background-color:green;
+}
+#sidebar {
+	background-color:pink;
+	float:right;
+	width:40%;
+}
+#footer-follow{
+	background-color:yellow;
 }
