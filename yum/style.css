@@ -52,10 +52,8 @@ table {
 /* END RESET */
 
 h1 { 
-	width:30px;
-	padding: 20px ;
-	margin: 10px 10px 20px 10px;
-	font-size: 40px;
+	width:80px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: georgia;
@@ -68,14 +66,13 @@ h3, h2 {
 	text-transform: uppercase;
 	font-family: georgia;
 	letter-spacing: 0.01em;
-	padding: 0 0 0 40px;
+	
 }
 
 ul {
 	margin: 28px;
 	font-family: helvetica;
-	line-height: 20px;
-	list-style-type: disc;	
+	line-height: 20px;	
 }
 
 ol {
@@ -104,6 +101,17 @@ img {
 	border-box: 2px solid;
 }
 
+.in1{
+	float: left;
+	width:20%;
+	background-color:green;
+}
+li {
+	text-decoration:none;
+}
 
-
+.1 {
+	float:left;
+	background-color:blue;
+}
 
