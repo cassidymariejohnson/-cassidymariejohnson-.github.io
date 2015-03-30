@@ -51,32 +51,28 @@ table {
 
 /* END RESET */
 
+body{
+	width:500px;
+}
+
 h1 { 
-	width:80px;
+	width:250px;
 	font-size: 30px;
-	text-align: center;
 	text-transform: uppercase;
 	font-family: georgia;
 	letter-spacing: 0.05em;
-}
-
-h3, h2 {
-	margin: 10px;
-	font-size: 20px;
-	text-transform: uppercase;
-	font-family: georgia;
-	letter-spacing: 0.01em;
+	margin:10px;
+	background-color:green;
+	float:left;
 	
 }
-
+	
 ul {
-	margin: 28px;
 	font-family: helvetica;
 	line-height: 20px;	
 }
 
-ol {
-	margin: 33px;
+p {
 	font-family: helvetica;
 	line-height: 20px;
 	list-style-type: decimal;
@@ -85,9 +81,7 @@ ol {
 a {
 	margin: 10px;
 	font-family: helvetica;
-	line-height: 20px;
-	float:left;
-	width:40%;
+	text-decoration:none;
 }
 
 h6 {
@@ -97,21 +91,23 @@ h6 {
 	font-size: 15px;
 }
 
-img {
-	border-box: 2px solid;
-}
-
 .in1{
-	float: left;
+	float:left;
 	width:20%;
-	background-color:green;
-}
-li {
-	text-decoration:none;
+	background-color:purple;
+	padding:0 20px 0 0;
 }
 
-.1 {
+.in2{
+	float:left;
+	width:20%;
+	background-color:yellow;
+	padding: 0 0 60px 0 ;
+}
+
+.1{
 	float:left;
 	background-color:blue;
+	padding:20px;
 }
 
