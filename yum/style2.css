@@ -112,7 +112,7 @@ h6 {
 }
 a{
 	position: absolute;
-	bottom:40px;
+	bottom:20px;
 	left:40px;
 }
 .rating {
@@ -122,20 +122,20 @@ a{
 	top:180px;
 	left:140px;
 }
-.one {
+.oned {
 	background-color:yellow;
 	padding:0px 0 0 40px;
 	position: absolute;
 	bottom:80px;
 	left:0;
 	width:160px;
-	top:300px;
+	top:270px;
 	line-height:20px;
 	font-family:helvetica;
 }
-.two {
+.twod {
 	background-color:green;
-	top:300px;
+	top:270px;
 	position: absolute;
 	bottom:80px;
 	left:220px;
@@ -143,9 +143,9 @@ a{
 	line-height:20px;
 	font-family:helvetica;
 }
-.three {
+.threed {
 	background-color:blue;
-	top:300px;
+	top:270px;
 	position: absolute;
 	bottom:80px;
 	left:400px;
@@ -153,13 +153,30 @@ a{
 	line-height:20px;
 	font-family:helvetica;
 }
-.four {
+.fourd {
 	background-color:pink;
-	top:300px;
+	top:270px;
 	position: absolute;
 	bottom:80px;
 	left:580px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
+}
+.one {
+	background-color:yellow;
+	padding:0px 0 0 40px;
+	position: absolute;
+	bottom:80px;
+	left:0;
+	width:160px;
+	top:245px;
+	line-height:20px;
+	font-family:helvetica;
+	font-weight:bold;
+}
+img {
+	position: absolute;
+	bottom:60px;
+	left:30px;
 }
