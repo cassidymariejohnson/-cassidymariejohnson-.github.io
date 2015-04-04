@@ -238,9 +238,10 @@ h3 {
 }
 
 .recipe{
-	position:absolute;
-	bottom:0;
+	position:relative;
+	top:800px;
 	left:0;
+	
 }
 
 
