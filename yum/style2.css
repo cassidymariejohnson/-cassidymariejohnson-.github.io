@@ -52,7 +52,7 @@ table {
 /* END RESET */
 
 h1 {
-	background-color: green;
+	background-color: none;
 	padding: 40px 0 20px 40px;
 	float:left;
 	width:50%;
@@ -61,7 +61,7 @@ h1 {
 }
 
 .in1 {
-	background-color:blue;
+	background-color:none;
 	padding:40px 10px 20px 40px;
 	float:left;
 	width:20%;
@@ -74,7 +74,7 @@ h1 {
 }
 
 .in2 {
-	background-color:pink;
+	background-color:none;
 	padding:40px 10px 20px 40px;
 	float:left;
 	width:20%;
@@ -87,7 +87,7 @@ h1 {
 }
 
 ol{
-	background-color:yellow;
+	background-color:none;
 	padding:60px 0 0 60px;
 	position: absolute;
 	bottom:80px;
@@ -98,7 +98,7 @@ ol{
 	width:20%;
 }
 h6 {
-	background-color:teal;
+	background-color:none;
 	padding:0px 0px 0 40px;
 	font-family:helvetica;
 	width:20%;
@@ -116,7 +116,9 @@ a{
 	bottom:20px;
 	left:40px;
 	text-decoration:none;
-	color:blue;
+	color:white;
+	padding:5px;
+	background-color:teal;
 }
 .rating {
 	float:left;
@@ -126,7 +128,7 @@ a{
 	left:106px;
 }
 .oned {
-	background-color:yellow;
+	background-color:none;
 	padding:0px 0 0 40px;
 	position: absolute;
 	bottom:80px;
@@ -137,37 +139,37 @@ a{
 	font-family:helvetica;
 }
 .twod {
-	background-color:green;
+	background-color:none;
 	top:270px;
 	position: absolute;
 	bottom:80px;
-	left:220px;
+	left:230px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
 }
 .threed {
-	background-color:blue;
+	background-color:none;
 	top:270px;
 	position: absolute;
 	bottom:80px;
-	left:400px;
+	left:425px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
 }
 .fourd {
-	background-color:pink;
+	background-color:none;
 	top:270px;
 	position: absolute;
 	bottom:80px;
-	left:580px;
+	left:620px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
 }
 .one {
-	background-color:yellow;
+	background-color:none;
 	padding:0px 0 0 40px;
 	position: absolute;
 	bottom:80px;
@@ -180,11 +182,11 @@ a{
 	font-size:20px;
 }
 .two {
-	background-color:green;
+	background-color:none;
 	top:245px;
 	position: absolute;
 	bottom:100px;
-	left:220px;
+	left:230px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
@@ -192,11 +194,11 @@ a{
 	font-size:20px;
 }
 .three {
-	background-color:blue;
+	background-color:none;
 	top:245px;
 	position: absolute;
 	bottom:80px;
-	left:400px;
+	left:425px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
@@ -204,11 +206,11 @@ a{
 	font-size:20px;
 }
 .four {
-	background-color:pink;
+	background-color:none;
 	top:245px;
 	position: absolute;
 	bottom:80px;
-	left:580px;
+	left:620px;
 	width:160px;
 	line-height:20px;
 	font-family:helvetica;
@@ -218,13 +220,13 @@ a{
 }
 img {
 	position: absolute;
-	bottom:60px;
+	bottom:80px;
 	left:30px;
 }
 
 .circles {
 	position: absolute;
-	top:257px;
+	top:276px;
 	left:161px;
 }
 
@@ -236,9 +238,7 @@ h3 {
 }
 
 .recipe {
-	position: absolute;
-	top:200px;
-	left:0;
+	
 }
 
 
