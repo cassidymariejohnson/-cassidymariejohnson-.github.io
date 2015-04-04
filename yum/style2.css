@@ -60,23 +60,33 @@ h1 {
 
 .in1 {
 	background-color:blue;
-	padding:20px;
+	padding:20px 10px 0 0px;
 	float:left;
 	width:20%;
+	position:absolute;
+	top:0;
+	right:700px;
 }
 
 .in2 {
-	background-color:yellow;
+	background-color:pink;
 	padding:20px;
 	float:left;
 	width:20%;
+	position:absolute;
+	top:0;
+	right:500px;
 }
 
 ol{
-	background-color:green;
-	padding:20px;
+	background-color:yellow;
+	padding:60px 0 0 60px;
+	position: absolute;
+	bottom:60px;
+	left:0;
+
 	list-style-type: decimal;
-	float:left;
+	
 	width:20%;
 }
 h6 {
@@ -85,4 +95,15 @@ h6 {
 	
 	width:20%;
 }
-
+.topleft {
+	float:left;
+	width:40%;
+	position:relative;
+	top: 0;
+	left: 0;
+}
+a{
+	position: absolute;
+	bottom:0;
+	left:0;
+}
