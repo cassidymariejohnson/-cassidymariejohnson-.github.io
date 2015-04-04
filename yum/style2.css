@@ -102,6 +102,7 @@ h6 {
 	padding:0px 0px 0 40px;
 	font-family:helvetica;
 	width:20%;
+	font-size:14px;
 }
 .topleft {
 	float:left;
@@ -117,10 +118,10 @@ a{
 }
 .rating {
 	float:left;
-	width:2%;
+	width:10%;
 	position:absolute;
 	top:180px;
-	left:140px;
+	left:106px;
 }
 .oned {
 	background-color:yellow;
@@ -174,9 +175,60 @@ a{
 	line-height:20px;
 	font-family:helvetica;
 	font-weight:bold;
+	font-size:20px;
+}
+.two {
+	background-color:green;
+	top:245px;
+	position: absolute;
+	bottom:100px;
+	left:220px;
+	width:160px;
+	line-height:20px;
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:20px;
+}
+.three {
+	background-color:blue;
+	top:245px;
+	position: absolute;
+	bottom:80px;
+	left:400px;
+	width:160px;
+	line-height:20px;
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:20px;
+}
+.four {
+	background-color:pink;
+	top:245px;
+	position: absolute;
+	bottom:80px;
+	left:580px;
+	width:160px;
+	line-height:20px;
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:20px;
+	
 }
 img {
 	position: absolute;
 	bottom:60px;
 	left:30px;
+}
+
+.circles {
+	position: absolute;
+	top:257px;
+	left:161px;
+}
+
+h3 {
+	font-family: georgia;
+	position: absolute;
+	top:30px;
+	left:60px;
 }
