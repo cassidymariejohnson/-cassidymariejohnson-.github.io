@@ -115,6 +115,8 @@ a{
 	position: absolute;
 	bottom:20px;
 	left:40px;
+	text-decoration:none;
+	color:blue;
 }
 .rating {
 	float:left;
@@ -232,3 +234,14 @@ h3 {
 	top:30px;
 	left:60px;
 }
+
+.recipe {
+	position: absolute;
+	top:200px;
+	left:0;
+}
+
+
+
+
+
