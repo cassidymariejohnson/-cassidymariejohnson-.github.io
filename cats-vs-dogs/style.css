@@ -113,16 +113,21 @@ p{
 }
 .alignleft {
 	float:left;
-	clear:both;
-	width:100%;
+	
+	width:50%;
 	font-size: 15px;
 	font-family: georgia;
 	padding: 10px 0 0 0px;
-	border-top: 5px solid;
 }
 .alignright {
 	float:right;
-	text-align:right;
-	width:100%;
+	width:50%;
 	bottom:10px;
+	padding: 10px 0 0 0px;
+	text-align:right;
+}
+footer{
+	
+	border-top:5px solid black;
+	clear:both;
 }

@@ -50,10 +50,20 @@ table {
 	border-spacing: 0;
 }
 /* END RESET */
+body {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
 
-#site-header {
+#site-wrapper {
 	background-color:lightyellow;
 	padding: 60px;
+	width:100%;
+}
+#site-header {
+	margin:0 auto;
+	width:80%;
 }
 .logo{
 	text-display:none;
