@@ -239,9 +239,14 @@ h3 {
 
 .recipe{
 	position:relative;
-	top:800px;
+	top:400px;
 	left:0;
 	
+}
+.button{
+	position:absolute;
+	left:0;
+	bottom:0;
 }
 
 
