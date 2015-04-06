@@ -53,7 +53,7 @@ table {
 
 #site-header {
 	background-color:lightyellow;
-	padding: 20px;
+	padding: 60px;
 }
 .logo{
 	text-display:none;
@@ -64,6 +64,7 @@ table {
 	top:0;
 	right:0;
 	padding:20px;
+	color:rgb(121,72,35);
 }
 
 #main-menu{
@@ -71,7 +72,7 @@ table {
 	float:left;
 	width:100%%;
 	margin:0px;
-	padding: 0,0,20,0;
+	padding: 0,0,60,0;
 }
 
 li{
@@ -85,7 +86,12 @@ h1{
 	font-size:20px;
 	font-family:helvetica;
 	padding:20,0,0,0;
-	margin:20px;
+	margin:0px;
+	position:relative;
+	top:50px;
+	left:190px;
+	text-transform:uppercase;
+	font-weight:bold;
 }
 
 p{
@@ -94,10 +100,21 @@ p{
 	padding: 0px;
 	margin:20px;
 	font-size:15px;
+	position:relative;
+	top:30px;
+	left:170px;
+	line-height:15px;
 }
 
 h2 {
 	margin:20px;
+	position:relative;
+	top:40px;
+	left:170px;
+	color: rgb(121,72,35);
+	font-size:15px;
+	font-family:helvetica;
+	text-transform:uppercase;
 }
 
 
@@ -117,15 +134,71 @@ a {
 	color:white;
 	font-family: helvetica;
 	text-transform:uppercase;
+	margin:40px;
 }
 #footer-contact {
 	background-color:green;
 }
 #sidebar {
 	background-color:pink;
-	float:right;
+	position:absolute;
+	top:500px;
+	bottom:300px;
+	right:0;
 	width:40%;
+
 }
 #footer-follow{
 	background-color:yellow;
+}
+.logo {
+	position:absolute;
+	top:0;
+	left:150px;
+}
+
+.toplist {
+	position:absolute;
+	top:130px;
+	
+	padding:5px;
+	background-color:rgb(121,72,35);
+	width:100%;
+}
+
+.topright{
+	background-color:rgb(121,72,35);
+}
+
+#site-footer{
+	padding:10px;
+	position:relative;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:rgb(121,72,35);
+}
+
+.sidephoto {
+	position:relative;
+	bottom:400px;
+	right:0;
+}
+
+.twitter{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.sidelink {
+	position:absolute;
+	right:0;
+	top:10px;
+	background-color:blue;
+}
+.sideheader{
+	position:absolute;
+	right:0;
+	top:10px;
+	background-color:blue;
 }
