@@ -131,3 +131,24 @@ footer{
 	border-top:5px solid black;
 	clear:both;
 }
+
+img {
+	max-width:100%;
+}
+
+@media screen and (max-width:1000px) {
+    #top-menu { float:none; width:98%; margin:0 1%; }
+    .section1{ float:none; width:98%; margin:0 1%; }
+	.section2{ float:none; width:98%; margin:0 1%; } }
+	
+@media screen and (max-width:800px) {
+	  
+	    #top-menu{ display:inline-block; padding:0px; }
+		
+	}
+
+
+
+
+
+
