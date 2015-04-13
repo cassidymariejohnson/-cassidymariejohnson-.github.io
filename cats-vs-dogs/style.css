@@ -159,7 +159,7 @@ img {
 @media screen and (max-width:1000px) {
 	
 	nav ul {display:none;}
-	nav img {display:block; padding:7px 0 0 0;}}
+	nav img {display:block; padding:7px 0 0 0;}
 	
 }
 
