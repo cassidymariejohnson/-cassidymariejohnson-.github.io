@@ -136,16 +136,12 @@ img {
 	max-width:100%;
 }
 
+
 @media screen and (max-width:1200px) {
     #top-menu { float:none; width:98%; margin:0 1%;  }
 }
 	
-@media screen and (max-width:1014px) {
-		#top-menu{ display:inline-block; ; height:100px;}
-	}
-@media screen and (max-width:595px) {
-			#top-menu{ display:inline-block; ; height:140px;}
-		}
+
 	
 	 
 @media screen and (max-width:520px) {
@@ -160,6 +156,14 @@ img {
 @media screen and (max-width:963px) {
 		    .section1{ float:none; width:98%; margin:0 1%; }
 			.section2{ float:none; width:98%; margin:0 1%; } }
+			
+@media screen and (max-width:998px) {
+	nav img {display:block;}
+	nav ul {display:none;}
+				
+				
+				
+			}
 
 
 
