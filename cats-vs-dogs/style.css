@@ -137,11 +137,10 @@ img {
 }
 
 
-@media screen and (max-width:1200px) {
-    #top-menu { float:none; width:98%; margin:0 1%;  }
-}
-	
 
+	
+@media screen and (max-width:1280px) {
+	nav img {display:none;}}
 	
 	 
 @media screen and (max-width:520px) {
@@ -157,13 +156,12 @@ img {
 		    .section1{ float:none; width:98%; margin:0 1%; }
 			.section2{ float:none; width:98%; margin:0 1%; } }
 			
-@media screen and (max-width:998px) {
-	nav img {display:block;}
+@media screen and (max-width:1000px) {
+	
 	nav ul {display:none;}
-				
-				
-				
-			}
+	nav img {display:block; padding:7px 0 0 0;}}
+	
+}
 
 
 
