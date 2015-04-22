@@ -98,7 +98,8 @@ nav{
 
 
 h2{
-	font-family:'league_gothicCnRg';
+	font-family:georgia;
+	font-weight:bold;
 	font-size: 20px;
 	margin:10px 0 0 0;
 }
@@ -152,6 +153,15 @@ footer{
 
 img {
 	max-width:100%;
+}
+
+h1 {
+	font-family:'league_gothicCnRg';
+	font-size:8em;
+	float:left;
+	width:50%;
+	text-transform: uppercase;
+	
 }
 
 
