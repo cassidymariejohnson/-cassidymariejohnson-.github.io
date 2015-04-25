@@ -70,53 +70,53 @@ body {
 }
 
 #circles {
-	padding:135px 0 0 150px;
+	padding:135px 0 0 100px;
 }
 
 #circles2 {
-	padding:20px 0 0 150px;
+	padding:20px 0 0 100px;
 }
 
 .c1 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c2 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c3 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c4 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c5 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c6 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c7 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 .c8 {
-	padding: 0 10px 0 0;
+	padding: 0 40px 0 0;
 }
 
-.ways {
+.pic {
 	padding:28px 20px 20px 20px;
 }
-.ways2 {
+.pic2 {
 	padding:28px 20px 20px 0px;
 }
 
-.waystitle {
+.title {
 	font-size:25px;
 	width:800px;
 	padding:120px 0 0 20px ;
 	font-weight:bold;
 }
 	
-.waystext {
+.text {
 	width:600px;
 	padding:20px 0 0 20px;
 	font-family:helvetica;
