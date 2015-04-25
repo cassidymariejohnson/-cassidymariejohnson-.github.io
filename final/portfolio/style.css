@@ -67,6 +67,9 @@ body {
 	float:left;
 	width:50%;
 	text-align:right;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
 }
 
 #circles {
