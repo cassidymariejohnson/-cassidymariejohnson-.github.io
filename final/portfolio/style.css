@@ -69,17 +69,57 @@ body {
 	text-align:right;
 }
 
-img {
+#circles {
+	padding:135px 0 0 150px;
+}
+
+#circles2 {
+	padding:20px 0 0 150px;
+}
+
+.c1 {
+	padding: 0 10px 0 0;
+}
+.c2 {
+	padding: 0 10px 0 0;
+}
+.c3 {
+	padding: 0 10px 0 0;
+}
+.c4 {
+	padding: 0 10px 0 0;
+}
+.c5 {
+	padding: 0 10px 0 0;
+}
+.c6 {
+	padding: 0 10px 0 0;
+}
+.c7 {
+	padding: 0 10px 0 0;
+}
+.c8 {
+	padding: 0 10px 0 0;
+}
+
+.ways {
+	padding:28px 20px 20px 20px;
+}
+
+.waystitle {
+	font-size:25px;
+	width:800px;
+	padding:120px 0 0 20px ;
+	font-weight:bold;
+}
 	
+.waystext {
+	width:600px;
+	padding:20px 0 0 20px;
+	font-family:helvetica;
+	line-height:20px;
+	font-size:16px;
 }
-
-#circles {padding:135px 0 0 140px;
-}
-#circles2 {padding:25px 0 0 140px;
-}
-
-
-
 
 
 
