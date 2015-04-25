@@ -56,7 +56,10 @@ body {
 	background-image: url ("images/background.jpg");
 }
 
-.name {
+.myname {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
 	font-family:georgia;
 	float:left;
 	width:40%;
@@ -138,7 +141,28 @@ body {
 	left:558px;
 }
 
+#contactinfo {
+	padding:28px 0 0 20px;
+	width:400px;
+	height:300px;
+	background-color:white;
+	position:absolute;
+	top:180px;
+	left:20px;
+}
 
+.name {
+	padding: 20px, 0 0 0;
+}
+.email {
+	padding: 20px, 0 0 0;
+}
 
+.message {
+	padding: 20px, 0 0 0;
+}
+.send {
+	padding: 20px, 0 0 0;
+}
 
 
