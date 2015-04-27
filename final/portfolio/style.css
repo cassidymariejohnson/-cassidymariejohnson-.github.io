@@ -192,11 +192,20 @@ body {
 img { max-width:100%;}
 
 
-	 
-@media screen and (max-width:1172px) {
+#page-wrap {
+	width:3000px;
+}
 		   
+#page-wrap img {
+	float:left;
+}
 
+#topnav {
+	position:fixed;
+}
 
-
+.navwrapper{
+	height:150px;
+}
 
 
