@@ -92,38 +92,7 @@ body {
 	padding:20px 0 0 100px;
 }
 
-.c1 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c2 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c3 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c4 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c5 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c6 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c7 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
-.c8 {
-	padding: 0 20px 0 20px;
-	float:left;
-}
+
 
 .pic {
 	padding:28px 20px 20px 20px;
@@ -231,13 +200,27 @@ img { max-width:100%;}
 
 .circlehover {
 	position:relative;
+	float:left;
+	
+	
 	
 }
 
+
 .circletext{
 	position:absolute;
-	top:30%;
+	top:50%;
 	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	line-height:23px;
+	background-color:rgba(196, 189, 205, 0.5);
 }
 
-
+.circletext{
+	
+}
+.circlehover img:hover
