@@ -53,7 +53,7 @@ table {
 
 
 body {
-	background-image: url ("images/background.jpg");
+	background-image: url("images/background4.jpg");
 }
 
 .myname {
@@ -93,28 +93,36 @@ body {
 }
 
 .c1 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c2 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c3 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c4 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c5 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c6 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c7 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 .c8 {
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	float:left;
 }
 
 .pic {
@@ -214,10 +222,22 @@ img { max-width:100%;}
 
 #topnav {
 	position:fixed;
+	width:100%;
 }
 
 .navwrapper{
 	height:0px;
+}
+
+.circlehover {
+	position:relative;
+	
+}
+
+.circletext{
+	position:absolute;
+	top:30%;
+	width:100%;
 }
 
 
