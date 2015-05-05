@@ -295,7 +295,7 @@ input, textarea { display:block;}
 		clear:both;
 	}
 	.pic, .pic2, .pic3, .pic4 {
-		padding:10px;
+		padding:20px;
 	}
 }
 		
@@ -303,6 +303,7 @@ input, textarea { display:block;}
 	.myname {
 		font-size:35px;
 		padding:5% 0 0 15% ;
+		height:60px;
 	}	
 }	
 		
