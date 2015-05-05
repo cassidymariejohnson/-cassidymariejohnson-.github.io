@@ -64,7 +64,7 @@ body {
 	font-size:55px;
 	float:left;
 	width:100%;
-	padding:23px 0 0 375px;
+	padding:23px 0 0 30%;
 	background-color:rgba(196, 189, 205, 0.5);
 	height:80px;
 	
@@ -238,8 +238,12 @@ img { max-width:100%;}
 	
 }
 
+.circlehover:hover img{
+	opacity:.5;
+	
+}
 
-.circletext{
+.circlehover:hover .circletext{
 	position:absolute;
 	top:42%;
 	width:100%;
@@ -249,10 +253,37 @@ img { max-width:100%;}
 	font-family: 'Montserrat', sans-serif;
 	font-size:20px;
 	line-height:24px;
-	background-color:rgba(196, 189, 205, 0.5);
+	display:block;
+	text-shadow:0px 0px 8px rgba(196, 189, 205, 0.8);
+	
 }
 
 .circletext{
+	display:none;
 	
 }
-.circlehover img:hover
+label {display:block; color:red;}
+input, textarea { display:block;}
+
+@media screen and (max-width:1100px){
+	.myname{
+		padding-left:10%;
+	}
+	#page-wrap img {
+		clear:both;
+	}
+	.pic, .pic2, .pic3, .pic4 {
+		padding:10px;
+	}
+}
+		
+@media screen and (max-width:856px){
+	.myname {
+		font-size:25px;
+	}	
+		
+		
+		
+	}	
+		
+	

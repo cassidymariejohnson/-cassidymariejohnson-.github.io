@@ -20,13 +20,28 @@
 			</nav>
 		</div>
 		
-	<h4 class="title">Contact Me</h4>
-		<div id="contactinfo">
-		<h5 class="name">Name</h5>
-		<h5 class="email">Email</h5>
-		<h5 class="message">Message</h5>
-		<h5 class="send">Send</h5>
+	<div id="contact-form">    
+
+	<form id="contact" method="post" action="somewhere.php">
+	<fieldset>    
+
+		<label for="name">Name</label>
+		<input type="text" name="contact[name]" placeholder="Full Name">
+
+		<label for="email">E-mail</label>
+		<input type="email" name="contact[email]" placeholder="name@domain.com">
+
+		<label for="phone">Message</label>
+		<textarea name="contact[message]" placeholder="enter your message"></textarea>
+
+
+	<input type="submit" name="submit" id="submit" value="Send Message" />
+
+	</fieldset>
+	</form>
+
 	</div>
+	
 </body>
 </html>
 

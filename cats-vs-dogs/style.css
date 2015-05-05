@@ -175,7 +175,8 @@ h1 {
 	border:solid 5px;
 	border-left-style:none;
 	border-right-style:none;
-	
+	position:absolute;
+	left:0px;
 }
 .line {
 	border-width:1px;
@@ -183,11 +184,11 @@ h1 {
 	border-left-style:none;
 	border-right-style:none;
 	width:70px;
-	float:left;
-	position:absolute;
-	top:40px;
-	left:600px;
-
+	position:relative;
+	top:0px;
+	left:0px;
+	display:inline-block;
+	height:90px;
 }
 
 	
@@ -212,6 +213,10 @@ h1 {
 	
 	nav ul {display:none;}
 	nav img {display:block; padding:7px 0 0 0;}
+	nav:hover .menu{ display:block;}
+	.menu li {display:block;}
+	nav:hover {height:300px;}
+	.menu .bullet {display:none;}
 	
 }
 
