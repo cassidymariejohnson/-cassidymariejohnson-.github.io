@@ -262,12 +262,34 @@ img { max-width:100%;}
 	display:none;
 	
 }
-label {display:block; color:red;}
+label {display:block; 
+		color:white;
+		font-family: 'Roboto Slab', serif;
+		font-size: 18px;
+		text-transform:uppercase;
+		padding:10px 0 0 0;
+	}
+	
+	
+#contact-form{
+		padding:20px 0 0 0px
+	}
+	
+.contactinfo {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	line-height:25px;
+	padding:120px 0 0 40px;
+}	
+	
+	
+	
+	
 input, textarea { display:block;}
 
 @media screen and (max-width:1100px){
 	.myname{
-		padding-left:10%;
+		padding-left:12%;
 	}
 	#page-wrap img {
 		clear:both;
@@ -277,13 +299,37 @@ input, textarea { display:block;}
 	}
 }
 		
-@media screen and (max-width:856px){
+@media screen and (max-width:877px){
+	.myname {
+		font-size:35px;
+		padding:5% 0 0 15% ;
+	}	
+}	
+		
+@media screen and (max-width:675px){
 	.myname {
 		font-size:25px;
+		padding:7% 0 0 10% ;
 	}	
-		
-		
-		
-	}	
-		
+}
 	
+@media screen and (max-width:527px){
+	.myname {
+		font-size:20px;
+		padding:9% 0 0 7% ;
+	}	
+}
+
+@media screen and (max-width:456px){
+	.myname {
+		font-size:17px;
+		padding:11% 0 0 5% ;
+	}	
+}
+
+@media screen and (max-width:415px){
+	.myname {
+		font-size:15px;
+		padding:12% 0 0 5% ;
+	}	
+}
