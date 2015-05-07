@@ -269,7 +269,14 @@ label {display:block;
 		text-transform:uppercase;
 		padding:10px 0 0 0;
 	}
+input{
+		padding:10px;
+	}
 	
+	textarea{
+		padding:5px 5px 20px 5px;
+		
+	}
 	
 #contact-form{
 		padding:20px 0 0 0px
